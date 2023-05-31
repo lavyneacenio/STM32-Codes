@@ -1,1 +1,0 @@
-On line 86 is located the mapping function.
