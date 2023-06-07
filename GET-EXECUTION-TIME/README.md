@@ -4,7 +4,7 @@ Na perspectiva do CubeMX, abra Timers e selecione TIM16. Defina o prescaler (PSC
 
 ![Imagem de Exemplo 1](https://github.com/Well-IDESCO/STM32-Codes/assets/135154280/e9457d70-0085-4533-8d27-635dc91bced3)
 
-Salve para gerar o código e abra **"main.c"**. Lá, para que possamos usar **"sprintf"** escreva:
+Salve para gerar o código e abra **"main.c"**. Para que possamos usar **"sprintf"**, escreva:
 ~~~C
 / * USER CODE BEGIN Includes * / 
 #include <stdio.h> 
