@@ -19,7 +19,6 @@ Salve para gerar o código.
 Em **"main.c"**, altere a função **"main()"**" para o seguinte:
 
 ~~~C
-/** 
   * @brief O ponto de entrada do aplicativo. 
   * @retval int 
   * / 
