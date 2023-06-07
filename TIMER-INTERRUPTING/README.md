@@ -76,7 +76,7 @@ Observe que a única coisa que temos no **"main()"** agora é **"HAL_TIM_Base_St
 //  o cronômetro acabou 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) 
 { 
-  / / Verifique qual versão do cronômetro acionou este retorno de chamada e alterne o LED 
+  // Verifique qual versão do cronômetro acionou este retorno de chamada e alterne o LED 
   if (htim == &htim16 ) 
   { 
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); 
