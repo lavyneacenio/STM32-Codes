@@ -8,11 +8,11 @@ Cada vez que a interrupção ocorrer, o LED vai ser alternado.
 
 ##### No CubeMX, altere o período do contador para 9.999 (“10000 - 1”).
 
--imagem1
+![img2](https://github.com/Well-IDESCO/STM32-Codes/assets/135154280/faca7e69-5884-44d7-9baf-9dc1613d8e26)
 
 ##### Clique na guia **"NVIC Settings"** e ative a interrupção de atualização TIM1 e a configuração de interrupção global TIM16.
 
-- imagem2
+![imgTIMER](https://github.com/Well-IDESCO/STM32-Codes/assets/135154280/bd603f87-8dd0-4aa1-93db-5a5e18c592ca)
 
 Salve para gerar o código.
 
