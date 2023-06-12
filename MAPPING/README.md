@@ -1,4 +1,4 @@
-# Está é uma função de mapeamento.
+# Esta é uma função de mapeamento.
 
 ### Quando instanciada, deve-se dar dois valores mínimos e máximos, como neste exemplo:
 
