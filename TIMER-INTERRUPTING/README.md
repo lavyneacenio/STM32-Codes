@@ -71,7 +71,7 @@ Observe que a única coisa que temos no **"main()"** agora é **"HAL_TIM_Base_St
 
 **Mais abaixo, em "/* USER CODE BEGIN 4 */", adicione o seguinte:**
 ~~~C
-
+/* USER CODE BEGIN  4 */ 
 
 //cronometro acabou
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) 
@@ -83,6 +83,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   } 
 } 
 
+/* CÓDIGO USUÁRIO END  4 */
 ~~~
 
 
