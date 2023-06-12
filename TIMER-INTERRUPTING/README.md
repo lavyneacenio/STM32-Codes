@@ -21,49 +21,49 @@ Em **"main.c"**, altere a função **"main()"**" para o seguinte:
 ~~~C
   * @brief O ponto de entrada do aplicativo. 
   * @retval int 
-  * / 
+  
 int main(void) 
 { 
-  / * USER CODE BEGIN  1 * / 
+  /* USER CODE BEGIN  1 */ 
 
-  / * USER CODE END  1 * / 
+  /* USER CODE END  1 */ 
 
-  / * MCU Configuration------------------ --------------------------------------* / 
+  /* MCU Configuration------------------ --------------------------------------*/ 
 
-  / * Reset de todos os periféricos, Inicializa o Flash interface e o Systick. * / 
+  /* Reset de todos os periféricos, Inicializa o Flash interface e o Systick. */ 
   HAL_Init(); 
 
-  / * USER CODE BEGIN Init * / 
+  /* USER CODE BEGIN Init */ 
 
-  / * USER CODE END Init * /
+  /* USER CODE END Init */
 
-  / * Configurar o relógio do sistema * / 
+  /* Configurar o relógio do sistema */ 
   SystemClock_Config(); 
 
-  / * USER CODE BEGIN SysInit * / 
+  /* USER CODE BEGIN SysInit */ 
 
-  / * USER CODE END SysInit * / 
+  /* USER CODE END SysInit */ 
 
-  / * Inicializar todos os periféricos configurados * / 
+  /* Inicializar todos os periféricos configurados */ 
   MX_GPIO_Init(); 
   MX_USART2_UART_Init(); 
   MX_TIM16_Init(); 
-  / * USER CODE BEGIN  2 * / 
+  /* USER CODE BEGIN  2 */ 
 
-  / / Iniciar cronômetro 
+  //Iniciar cronômetro 
   HAL_TIM_Base_Start_IT(&htim16); 
 
-  / * USER CODE END  2 * / 
+  /* USER CODE END  2 */ 
 
-  / * Loop infinito * / 
-  /* USER CODE BEGIN WHILE * / 
+  /* Loop infinito */ 
+  /* USER CODE BEGIN WHILE */ 
   while (1) 
   { 
-    / * USER CODE END WHILE * / 
+    /* USER CODE END WHILE */ 
 
-    / * USER CODE BEGIN  3 * / 
+    /* USER CODE BEGIN  3 */ 
   } 
-  / * USER CODE END  3 * / 
+  /* USER CODE END  3 */ 
 }
 ~~~
 
