@@ -6,9 +6,9 @@ Na perspectiva do CubeMX, abra Timers e selecione TIM16. Defina o prescaler (PSC
 
 Salve para gerar o código e abra **"main.c"**. Para que possamos usar **"sprintf"**, escreva:
 ~~~C
-/ * USER CODE BEGIN Includes * / 
+/* USER CODE BEGIN Includes */ 
 #include <stdio.h> 
-/ * USER CODE END Includes * / 
+/* USER CODE END Includes */ 
 ~~~
 
  Altere **"main()"**" para que possamos medir o tempo que leva para executar a função **"HAL_Delay(50)"**. 
